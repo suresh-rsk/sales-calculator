@@ -1,10 +1,9 @@
 .tile{
-    width: 8em;
-    height: 8em;
+    width: 8rem;
+    height: 8rem;
     background-color: rgb(83, 135, 196);
-    border-radius: 5px
-    ;
-    margin: 3em 3em;
+    border-radius: 5px;
+    margin: 3rem 3rem;
     color: azure;
     font-weight: 600;
     box-shadow: 5px 5px 10px black;
@@ -16,8 +15,9 @@
 }
 
 .image{
-    width: 100%;
-    height:max-content;
+    width: 90%;
+    height: 80%;
+    
 }
 
 .modal{
@@ -84,4 +84,7 @@
 }
 .modalOutput{
     flex-wrap: wrap;
+}
+.long, .short, .big, .small{
+    text-align: center;
 }
