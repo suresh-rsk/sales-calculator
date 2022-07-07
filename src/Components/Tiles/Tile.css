@@ -1,0 +1,86 @@
+.tile{
+    width: 8em;
+    height: 8em;
+    background-color: rgb(83, 135, 196);
+    border-radius: 5px;
+    margin: 3em 3em;
+    color: azure;
+    font-weight: 600;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.tile:hover{
+    box-shadow: 10px 10px 10px black;
+}
+
+.image{
+    width: 100%;
+    height:max-content;
+}
+
+.modal{
+    opacity: 1;
+    background-color: aliceblue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 80%;
+    display: block;
+    margin: 10% auto;
+}
+
+.modal:hover{
+    box-shadow: 5px 5px 10px 5px black;
+}
+
+.modalHeader{
+    display: block;
+    margin-top: 0px;
+    display: block;
+    background-color: blue;
+    text-align: center;
+}
+
+.modalBody{
+    height: 20rem;
+}
+.modalInput, .modalOutput{
+    display: flex;
+    justify-content: center;
+}
+.i, .o{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.long, .short{
+    display: inline-block;
+    margin: 2rem;
+    height: 1.5rem;
+}
+.long{
+    width:20rem;
+}
+.short{
+    width: 5rem;
+}
+
+#calculate{
+    display: block;
+    margin: 0 auto;
+}
+
+.big{
+    width: 20rem;
+}
+.small{
+    width: 15rem;
+}
+.big, .small{
+    height: 1.5rem;
+    margin: 2rem;
+    border: 1px solid blue;
+}
+.modalOutput{
+    flex-wrap: wrap;
+}
