@@ -76,7 +76,7 @@ const Tile=({app})=>{
     return(
         <div>
         <div className="tile" onClick={openModal}>
-            {app.name}
+            <p>{app.name}</p>
             <img className="image" src={`./images/${app.name}.jpg`} alt={app}/>
             
         </div>

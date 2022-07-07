@@ -9,15 +9,22 @@
     box-shadow: 5px 5px 10px black;
 
 }
+h3{
+    font-size: 1.5rem;
+}
+p{
+    margin-bottom: 0px;
+}
 
 .tile:hover{
     box-shadow: 10px 10px 10px black;
 }
 
 .image{
+    margin: 0px;
     width: 90%;
     height: 80%;
-    
+    border-radius: 3px;
 }
 
 .modal{
@@ -87,4 +94,52 @@
 }
 .long, .short, .big, .small{
     text-align: center;
+}
+
+@media only screen and (max-width:500px) {
+    h1{
+        font-size: 1rem;
+    }
+    h3{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 0.8rem;
+    }
+    p{
+        font-size: 0.6rem;
+    }
+    .modal{
+        margin: 20% auto;
+    }
+    .modalHeader{
+        height: 2rem;
+    }
+    .modalInput, .modalOutput{
+        margin-top: 3rem;
+    }
+    .tile{
+        width:5rem;
+        height:5rem;
+        margin: 2rem 2rem;
+    }
+    .i, .o{
+        display: block;
+    }
+    .long, .big{
+        width: 5rem;
+    }
+    .short, .small{
+        width: 3rem;
+    }
+    .long, .short, .big, .small{
+        margin: 1rem;
+        display: block;
+        height: 0.8rem;
+        font-size: 0.7rem;
+    }
+   
+   
+
+
 }
