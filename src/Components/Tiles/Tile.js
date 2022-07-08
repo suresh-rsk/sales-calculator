@@ -101,10 +101,10 @@ const Tile=({app})=>{
                     <button id="calculate" onClick={calculate}>Calculate</button>
                 </div>
                 <div className='modalOutput'>
-                    <div className='o'><h3>Amount</h3><label id="output1" className='big' >{values.output1}</label></div>
-                    <div className='o'><h3>Tax</h3><label id="output2" className='small' >{values.output2}</label></div>
-                    {app.size===3?<div className='o'><h3>TDS</h3><label id="output3" className='small' >{values.output3}</label></div>:<div></div>}
-                    <div className='o'><h3>Final</h3><label id="output4" className='big' >{values.output4}</label></div>
+                    <div className='o'><h3>Amount</h3><label id="output1" className='big' >{values.output1.toLocaleString('en-IN')}</label></div>
+                    <div className='o'><h3>Tax</h3><label id="output2" className='small' >{values.output2.toLocaleString('en-IN')}</label></div>
+                    {app.size===3?<div className='o'><h3>TDS</h3><label id="output3" className='small' >{values.output3.toLocaleString('en-IN')}</label></div>:<div></div>}
+                    <div className='o'><h3>Final</h3><label id="output4" className='big' >{values.output4.toLocaleString('en-IN')}</label></div>
                 </div>
             </div>
             
